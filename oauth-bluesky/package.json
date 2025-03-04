@@ -1,0 +1,19 @@
+{
+  "name": "oauth-bluesky",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openauthjs/openauth": "^0.4.2",
+    "valibot": "^1.0.0-rc.3"
+  },
+  "scripts": {
+    "dev": "bun --watch run index.ts"
+  }
+}
